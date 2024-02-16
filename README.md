@@ -78,6 +78,10 @@ Customize the appearance of the `PermissionTable` using Material-UI's styling so
 
 Contributions to the `PermissionTable` are welcome! Please ensure that your code adheres to the existing coding style and maintains test coverage.
 
+## GitHub Repository
+
+You can find the source code for the `PermissionTable` component on GitHub at [https://github.com/Ameni102Grami/PermessionTable](https://github.com/Ameni102Grami/PermessionTable).
+
 ## License
 
 This project is licensed under the ISC License.
