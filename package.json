@@ -1,16 +1,15 @@
 {
   "name": "permission-table",
-  "version": "1.44.0",
-  "description": "",
+  "version": "1.46.0",
+  "description": "A customizable React table component for managing permissions using Material-UI.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
     "dist"
   ],
   "scripts": {
-    
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf dist/ && prettier --write src/ && npm run build:esm && npm run build:cjs ",
+    "test": "echo \"Error: no test specified\" && exit  1",
+    "build": "rm -rf dist/ && prettier --write src/ && npm run build:esm && npm run build:cjs",
     "build:esm": "tsc",
     "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
   },
@@ -37,5 +36,21 @@
     "@mui/icons-material": "^5.15.10",
     "@mui/material": "^5.15.10",
     "http-server": "^14.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ameni102Grami/PermessionTable.git"
+  },
+  "keywords": [
+    "react",
+    "material-ui",
+    "table",
+    "permissions",
+    "management"
+  ],
+  "bugs": {
+    "url": "https://github.com/Ameni102Grami/PermessionTable/issues"
+  },
+  "homepage": "https://github.com/Ameni102Grami/PermessionTable#readme",
+  "funding": "https://github.com/sponsors/Ameni102Grami"
 }
